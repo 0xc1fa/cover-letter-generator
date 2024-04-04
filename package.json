@@ -1,0 +1,29 @@
+{
+  "name": "cover-letter-generator",
+  "version": "1.0.0",
+  "description": "A tool that generate tailor cover letter to your job.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanyatfu/cover-letter-generator.git"
+  },
+  "author": "Chan Yat Fu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chanyatfu/cover-letter-generator/issues"
+  },
+  "homepage": "https://github.com/chanyatfu/cover-letter-generator#readme",
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "jsdom": "^24.0.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.32.2",
+    "web-to-text": "^1.0.3"
+  }
+}
